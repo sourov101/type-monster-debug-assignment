@@ -218,3 +218,20 @@ button {
   }
 
 }
+
+
+/* blog page css */
+
+.container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5rem;
+  color: white;
+  font-size: 32px;
+  background-color: #171717;
+  border: 2px solid #9dffad;
+  border-radius: 15px;
+
+}
