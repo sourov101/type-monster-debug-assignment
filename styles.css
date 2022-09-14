@@ -195,7 +195,7 @@ button {
 
 }
 
-@media (min-width: 700px) and (max-width: 1600px) {
+@media (min-width: 768px) and (max-width: 1600px) {
   .box-container {
     padding: 10px 20px;
     width: 100%;
