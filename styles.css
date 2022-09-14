@@ -156,7 +156,7 @@ button {
 .card {
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -192,4 +192,27 @@ button {
   .card {
     flex-direction: column;
   }
+
+}
+
+@media (min-width: 700px) and (max-width: 1600px) {
+  .box-container {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+
 }
